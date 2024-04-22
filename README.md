@@ -12,8 +12,8 @@ Here, we only share a subset of each catalog, selected to contain objects at z >
 Therefore, use_phot=1 and the '*_flag' columns are =0 for all the objects in the catalogs by design of the selection.  
 Below is a description of the columns, where fil stands for the respective filter key in lowercase letters (e.g., f444w).
 
-|column name               |unit           |description                                               |
-|--------------------------|---------------|----------------------------------------------------------|
+|column name      |unit           |description                                               |
+|-----------------|---------------|----------------------------------------------------------|
 |id                        |n/a            |identification number from the SExtractor run             |
 ra                          deg                 right ascension (J2000, SExtractor)  
 dec                         deg                 declination (J2000, SExtractor)  

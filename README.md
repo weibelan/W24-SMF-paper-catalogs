@@ -10,7 +10,7 @@ Here, we only share a subset of each catalog, selected to contain objects at z >
 5) sn_flag = stellar_flag = hugekron_flag = nofit_flag = junk_flag = 0
 
 Therefore, use_phot=1 and the '*_flag' columns are =0 for all the objects in the catalogs by design of the selection.  
-Below is a description of the columns, where fil stands for the respective filter key in lowercase letters (e.g., f444w).
+Below is a description of the columns, where [fil] stands for the respective filter key in lowercase letters (e.g., f444w).
 
 |column name              |unit           |description                                               |
 |-------------------------|---------------|----------------------------------------------------------|

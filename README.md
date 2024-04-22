@@ -1,6 +1,6 @@
 # W24-SMF-paper-catalogs
 Photometric catalogs with bagpipes output used to compute SMFs in https://ui.adsabs.harvard.edu/abs/2024arXiv240308872W/abstract.  
-See there for details on the catalog production. A description of the columns is provided below.  
+See there for details on the original catalog production from the images. A description of the columns is provided below.  
 Here, we only share a subset of each catalog, selected to contain objects at z > 3. The selection criteria are outlined in Section 2.3 of the paper. In terms of the catalog columns, the selection corresponds to
 
 1) z_phot_eazy > 3

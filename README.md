@@ -1,8 +1,7 @@
 # W24-SMF-paper-catalogs
-Photometric catalogs with bagpipes output used to compute SMFs in https://ui.adsabs.harvard.edu/abs/2024arXiv240308872W/abstract. 
-See there for details on the catalog production. A description of the columns is provided below. 
-Here, we only share a subset of each catalog, selected to contain objects at z > 3. The selection criteria are outlined in Section 
-2.3 of the paper. In terms of the catalog columns, the selection corresponds to
+Photometric catalogs with bagpipes output used to compute SMFs in https://ui.adsabs.harvard.edu/abs/2024arXiv240308872W/abstract.  
+See there for details on the catalog production. A description of the columns is provided below.  
+Here, we only share a subset of each catalog, selected to contain objects at z > 3. The selection criteria are outlined in Section 2.3 of the paper. In terms of the catalog columns, the selection corresponds to
 
 1) z_phot_eazy > 3
 2) P(z_phot_eazy > 2.5) > 0.8
@@ -10,18 +9,17 @@ Here, we only share a subset of each catalog, selected to contain objects at z >
 4) flag_f115w = flag_f150w = flag_f200w = flag_f277w = flag_f356w = flag_f444w = 0
 5) sn_flag = stellar_flag = hugekron_flag = nofit_flag = junk_flag = 0
 
-Therefore, use_phot=1 and the '*_flag' columns are =0 for all the objects in the catalogs by design of the selection.
-
+Therefore, use_phot=1 and the '*_flag' columns are =0 for all the objects in the catalogs by design of the selection.  
 Below is a description of the columns, where fil stands for the respective filter key in lowercase letters (e.g., f444w).
 
-id                          n/a                 identification number from the SExtractor run
-ra                          deg                 right ascension (J2000, SExtractor)
-dec                         deg                 declination (J2000, SExtractor)
-x_image                     pixel               centroid x-position of the object (SExtractor)
-y_image                     pixel               centroid y-position of the object (SExtractor)
-a_image                     pixel               isophotal image major axis (SExtractor)
-b_image                     pixel               isophotal image minor axis (SExtractor)
-theta_image                 deg                 isophotal image position angle (SExtractor)
+id                          n/a                 identification number from the SExtractor run  
+ra                          deg                 right ascension (J2000, SExtractor). 
+dec                         deg                 declination (J2000, SExtractor). 
+x_image                     pixel               centroid x-position of the object (SExtractor)  
+y_image                     pixel               centroid y-position of the object (SExtractor)  
+a_image                     pixel               isophotal image major axis (SExtractor)  
+b_image                     pixel               isophotal image minor axis (SExtractor)  
+theta_image                 deg                 isophotal image position angle (SExtractor)  
 kron_radius                 n/a                 Kron radius in units of A or B (SExtractor)
 sn_lw_det_img	    	        n/a			            S/N in the LW detection image (inverse variance weighted F277W+F356W+F444W stack)
 aper_corr                   n/a                 aperture correction factor derived from a (PSF-matched version of) the detection image and applied to all bands

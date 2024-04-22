@@ -26,16 +26,16 @@ Below is a description of the columns, where [fil] stands for the respective fil
 |sn_lw_det_img	    	     |n/a			      |S/N in the LW detection image (inverse variance weighted F277W+F356W+F444W stack)  |
 |aper_corr                 |n/a           |aperture correction factor derived from a (PSF-matched version of) the detection image and applied to all bands   |
 |enclosed_flux_fraction    |n/a			      |fraction of energy encircled by the Kron-ellipse on the F444W PSF. To get the total (multiplicative) correction applied to the aperture fluxes, use aper_corr / enclosed_flux_fraction  |
-|class_star_<fil>	         |n/a	          |CLASS_STAR parameter (SExtractor), use with caution  |
-|faper_<fil>		           |nJy			      |flux in <fil> measured in a circular aperture of radius 0.16"  |
-|f_<fil>		               |nJy		              aperture-corrected, psf-matched flux in <fil>  |
-|eaper_<fil>		           |nJy		        |error in the aperture flux  |
-|e_<fil>			             |nJy			      |error in the aperture-corrected, psf-matched flux in <fil>, with a 5% error floor  |
-|sn_<fil>		               |n/a			      |signal-to-noise ratio in <fil> before applying the 5% error floor  |
-|r50_<fil>		             |pixel		      |radius containing 50% of the flux in <fil> (SExtractor)  |
+|class_star_[fil]	         |n/a	          |CLASS_STAR parameter (SExtractor), use with caution  |
+|faper_[fil]		           |nJy			      |flux in [fil] measured in a circular aperture of radius 0.16"  |
+|f_[fil]		               |nJy		        |aperture-corrected, psf-matched flux in [fil]  |
+|eaper_[fil]		           |nJy		        |error in the aperture flux  |
+|e_[fil]			             |nJy			      |error in the aperture-corrected, psf-matched flux in [fil], with a 5% error floor  |
+|sn_[fil]		               |n/a			      |signal-to-noise ratio in [fil] before applying the 5% error floor  |
+|r50_[fil]		             |pixel		      |radius containing 50% of the flux in [fil] (SExtractor)  |
 |sn_flag			             |binary		    |1, if the corresponding source has S/N < 3 in ALL the NIRCam wide filters F115W, F150W, F200W, F277W, F356W and F444W  |
-|flag_<fil>		             |binary		    |1, if the corresponding source is flagged in <fil>. In this case f_<fil> = e_<fil> = -99  |
-|c_<fil>			             |n/a			      |compactness parameter f(D=0.4") / f(D=0.2") for LRD selection  |
+|flag_[fil]		             |binary		    |1, if the corresponding source is flagged in [fil]. In this case f_[fil] = e_[fil] = -99  |
+|c_[fil]			             |n/a			      |compactness parameter f(D=0.4") / f(D=0.2") for LRD selection  |
 |z_phot_eazy               |n/a           |best-fit photometric redshift (peak of the PDF, eazy)  |
 |z_phot_160_eazy           |n/a           |16th percentile of the redshift PDF (eazy)  |
 |z_phot_840_eazy           |n/a           |84th percentile of the redshift PDF (eazy)  |
